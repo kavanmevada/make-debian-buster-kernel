@@ -30,3 +30,13 @@ checkCommandExist libssl-dev:native
 # make nconfig
 
 # make -j`nproc` bindeb-pkg
+
+
+
+
+
+
+
+# Update GCC 9
+# apt install gcc-9 g++-9
+# update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 60 --slave /usr/bin/g++ g++ /usr/bin/g++-9
